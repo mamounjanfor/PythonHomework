@@ -5,7 +5,7 @@ return a list of counter smallest even int greater than or equal to starting poi
 """
 
 
-def home_work(start, n):
+def even(start, n):
     if start % 2 == 0:
         for i in range(0, n * 2, 2):
             print(i + start)
@@ -18,5 +18,5 @@ def home_work(start, n):
 if __name__ == '__main__':
     a = int(input("enter a starting point: "))
     b = int(input("enter a counter: "))
-    d = home_work(a, b)
+    d = even(a, b)
     print(d)
